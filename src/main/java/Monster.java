@@ -1,6 +1,10 @@
-package main.java;
+
+import com.google.gson.Gson;
 
 import java.util.Arrays;
+import java.util.Collections;
+
+import static Constants.Constants.kToJson;
 
 public class Monster {
 
@@ -10,6 +14,12 @@ public class Monster {
         for (char[] row : battleBoard) {
             Arrays.fill(row, '*');
         }
+        System.out.println(kToJson(battleBoard));
+    }
+
+
+    private static String getToJson() {
+        return new Gson().toJson(battleBoard);
     }
 
 
