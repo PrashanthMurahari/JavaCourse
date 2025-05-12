@@ -22,18 +22,18 @@ public class ForLoops {
     }
 
     public void printTheGivenNumberOfNaturalNumbers(int userInput) {
-        for (int i = 0; i < userInput; i++) {
+        for (int i = 1; i < userInput; i++) {
             System.out.println(i);
         }
     }
 
     public void printTheGivenNumberOfNaturalNumbersInReverseOrder(int userInput) {
-        for (int i = userInput; i <= 1; i--) {
+        for (int i = userInput; i >= 1; i--) {
             System.out.println(i);
         }
     }
 
-    public void First10EvenNumbers() {
+    public void first10EvenNumbers() {
         for (int i = 0; i <= 20; i++) {
             if (i % 2 == 0) {
                 System.out.println(i);
@@ -41,7 +41,7 @@ public class ForLoops {
         }
     }
 
-    public void First10OddNumbers() {
+    public void first10OddNumbers() {
         for (int i = 0; i <= 20; i++) {
             if (i % 2 != 0) {
                 System.out.println(i);
@@ -57,15 +57,15 @@ public class ForLoops {
 
     public void sumOfNNaturalNumbers(int userInput) {
         int count = 0;
-        for (int i = 0; i < userInput; i++) {
+        for (int i = 0; i <= userInput; i++) {
             count += i;
         }
         System.out.println(count);
     }
 
     public void productOfNNaturalNumbers(int userInput) {
-        int count = 1;
-        for (int i = 1; i < userInput; i++) {
+        long count = 1;
+        for (int i = 1; i <= userInput; i++) {
             count *= i;
         }
         System.out.println(count);
@@ -91,9 +91,8 @@ public class ForLoops {
         System.out.println(count);
     }
 
-    public void countTheDigitsInTheNumber(Integer number) {
+    public int countTheDigitsInTheNumber(Integer number) {
         number = Math.abs(number);
-        System.out.println(number);
         int count = 0;
         if (number == 0) {
             count = 1;
@@ -103,7 +102,7 @@ public class ForLoops {
                 count++;
             }
         }
-        System.out.println(count);
+        return count;
     }
 
     public void sumTheDigitsInTheNumber(Integer number) {
@@ -114,6 +113,33 @@ public class ForLoops {
             number = number / 10;
         }
         System.out.println(count);
+    }
+
+    public void reverseAGivenNumber(int userInput) {
+        int remainingValue = 0;
+        int rem;
+        while (userInput > 0) {
+            rem = userInput % 10;
+            remainingValue = (remainingValue * 10) + rem;
+            userInput = userInput / 10;
+        }
+        System.out.println(remainingValue);
+    }
+
+    public void armstrongNumbersUnder1000(int userInput) {
+        for (int i = 1; i < userInput; i++) {
+            int sum = 0;
+            int number = i;
+            int count = countTheDigitsInTheNumber(number);
+            while (number > 0) {
+                int num = number % 10;
+                sum += Math.pow(num, count);
+                number = number / 10;
+            }
+            if (sum == i) {
+                System.out.println("Armstrong number " + sum);
+            }
+        }
     }
 
 

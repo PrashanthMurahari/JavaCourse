@@ -1,0 +1,71 @@
+---
+
+### *Basic 1D Array Problems*
+1. Find the largest element in an array.
+2. Find the second largest element.
+3. Reverse the array.
+4. Check if an array is sorted.
+5. Count even and odd numbers in an array.
+6. Count occurrences of a specific number.
+7. Find the maximum and minimum elements.
+8. Remove duplicates from the array.
+9. Rotate the array by one position.
+10. Rotate the array by k positions.
+
+---
+
+### *Intermediate 1D Array Problems*
+11. Move all zeros to the end of the array.
+12. Find the missing number in a sequence.
+13. Find the duplicate number in an array.
+14. Merge two sorted arrays.
+15. Find all elements that appear more than once.
+16. Replace every element with the greatest element on its right.
+17. Find the element that appears once when every other appears twice.
+18. Count the number of pairs with a given sum.
+19. Determine if two arrays are equal.
+20. Sort an array of 0s, 1s, and 2s (Dutch National Flag problem).
+
+---
+
+### *Advanced 1D Array Problems*
+21. Find the subarray with the maximum sum (Kadane’s Algorithm).
+22. Find the length of the longest subarray with a given sum.
+23. Find the longest increasing subsequence.
+24. Rearrange array in alternating positive and negative items.
+25. Find leaders in the array (element greater than all elements to the right).
+26. Product of array except self (without using division).
+27. Find equilibrium index.
+28. Maximum product subarray.
+29. Minimum swaps required to bring all elements <= k together.
+30. Sliding window maximum for a given window size.
+
+---
+
+### *Basic 2D Array Problems*
+31. Print a 2D array in row-wise and column-wise manner.
+32. Sum of all elements in a 2D array.
+33. Transpose of a matrix.
+34. Search for an element in a 2D matrix.
+35. Find row with the maximum number of 1s.
+36. Print the diagonal elements.
+37. Rotate a matrix by 90 degrees clockwise.
+38. Check if a 2D array is a magic square.
+39. Print elements in spiral order.
+40. Matrix multiplication.
+
+---
+
+### *Intermediate 2D Array Problems*
+41. Set matrix zeroes (set entire row and column to 0 if an element is 0).
+42. Find the saddle point in a matrix.
+43. Find the largest sum submatrix.
+44. Implement a basic Tic-Tac-Toe game board using 2D arrays.
+45. Count islands in a binary matrix.
+46. Find the shortest path in a binary matrix (BFS-style).
+47. Check if a given matrix is symmetric.
+48. Convert a matrix into a lower triangular matrix.
+49. Find the boundary traversal of a matrix.
+50. Check if a 2D matrix is a Toeplitz matrix.
+
+---

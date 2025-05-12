@@ -1,0 +1,120 @@
+
+### *Beginner Level (Basics of List)*
+
+1. Create a List and add 5 integers to it.
+2. Remove an element from a List by value.
+3. Remove an element from a List by index.
+4. Update a value at a specific index in a List.
+5. Check if a List contains a specific value.
+6. Print all elements of a List using a for loop.
+7. Print all elements using a for-each loop.
+8. Sort a list of integers in ascending order.
+9. Sort a list of strings in alphabetical order.
+10. Find the maximum value in a list of integers.
+11. Find the minimum value in a list of integers.
+12. Get the size of a list.
+13. Clear all elements from a list.
+14. Create a sublist from a given list.
+15. Merge two lists.
+16. Convert an array to a list.
+17. Convert a list to an array.
+18. Check if a list is empty.
+19. Find the index of an element in a list.
+20. Count the frequency of an element.
+21. Insert an element at a specific index.
+22. Remove the first and last elements.
+23. Copy all elements from one list to another.
+24. Create a list of strings and sort them by length.
+25. Replace all even numbers in a list with 0.
+26. Count how many elements are greater than a certain value.
+27. Find the second largest number.
+28. Print all elements at even indices.
+29. Add all elements from one list to another using addAll().
+30. Iterate a list using ListIterator (forward and backward).
+
+---
+
+### *Intermediate Level (Manipulation and Operations)*
+31. Remove duplicates from a list.
+32. Reverse a list manually.
+33. Swap two elements in a list.
+34. Find all even numbers from a list.
+35. Find all strings that start with "A".
+36. Add element at the beginning and end.
+37. Create a list of squares from numbers.
+38. Compare two lists and return common elements.
+39. Check if two lists are equal.
+40. Clone a list.
+41. Create an immutable list using List.of().
+42. Convert all strings in a list to uppercase.
+43. Convert all strings to lowercase.
+44. Sort a list in descending order.
+45. Sort a list of custom objects using Comparator.
+46. Filter strings ending with a specific character.
+47. Count how many strings contain a specific letter.
+48. Remove elements less than a certain value.
+49. Create a list from a comma-separated string.
+50. Convert a list of integers to a string with commas.
+51. Split a string into a list using Arrays.asList().
+52. Find the most frequently occurring element.
+53. Partition a list into even and odd lists.
+54. Group integers into ranges (e.g., 0–10, 11–20, etc.).
+55. Check if a list is a palindrome.
+56. Remove all nulls from a list.
+57. Copy only non-null values to a new list.
+58. Remove all empty strings.
+59. Replace all odd numbers with -1.
+60. Multiply all elements by 2 and store in a new list.
+
+---
+
+### *Advanced Level (Streams, Lambdas, Functional)*
+61. Sort a list of objects by a field using Streams.
+62. Find the sum of all integers using Stream.reduce.
+63. Filter strings longer than 5 characters.
+64. Map strings to their lengths.
+65. Group list elements by starting letter.
+66. Convert a list to a Map<String, Integer> using Streams.
+67. Deduplicate a list using distinct().
+68. Get first 5 elements using limit().
+69. Skip first 3 elements using skip().
+70. Use Optional with findFirst() in a list.
+71. Calculate average of list elements using mapToInt().average().
+72. Flatten a list of lists using flatMap().
+73. Count words by frequency using Collectors.groupingBy().
+74. Get distinct characters from a list of strings.
+75. Find the longest string using Comparator.comparing().
+76. Partition a list into true/false buckets with partitioningBy().
+77. Convert a list to a set using Streams.
+78. Use peek() to debug stream processing.
+79. Find common elements in two lists using streams.
+80. Filter and sort at the same time using Streams.
+81. Convert a list to a comma-separated string using Collectors.joining().
+82. Collect a list into a TreeSet using a collector.
+83. Remove duplicate custom objects using distinct() with custom equality.
+84. Parallel stream to process large list.
+85. Filter a list with multiple conditions.
+86. Find duplicate elements using Collectors.groupingBy.
+
+---
+
+### *Bonus / Edge-Case Challenges*
+87. Handle ConcurrentModificationException while modifying a list.
+88. Remove elements while iterating using Iterator.
+89. Implement a custom list wrapper class.
+90. Rotate a list left/right by N positions.
+91. Shuffle a list randomly using Collections.shuffle().
+92. Replace all values with a constant using Collections.fill().
+93. Get middle element(s) of a list.
+94. Find second smallest element.
+95. Merge and sort two sorted lists.
+96. Remove all instances of a given value.
+97. Split a list into N nearly equal parts.
+98. Check if a list contains only unique elements.
+99. Use recursion to print list elements.
+100. Generate a list of random numbers.
+101. Replace elements based on a condition.
+102. Implement pagination over a list.
+103. Create a frequency map of characters from a list of strings.
+104. Find the first non-repeating element.
+105. Merge lists of custom objects and remove duplicates.

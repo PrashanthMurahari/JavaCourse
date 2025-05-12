@@ -1,0 +1,167 @@
+---
+
+## *Beginner Level (50+ Problems)*
+
+1. Insert node at the beginning
+2. Insert node at the end
+3. Insert node at a specific position
+4. Delete node from beginning
+5. Delete node from end
+6. Delete node from a specific position
+7. Print a linked list
+8. Search for an element in the list
+9. Count number of nodes
+10. Check if list is empty
+11. Find length of the list
+12. Find middle of the list
+13. Reverse a linked list (iterative)
+14. Reverse a linked list (recursive)
+15. Swap two nodes (by value)
+16. Check if linked list is palindrome
+17. Compare two linked lists for equality
+18. Merge two sorted linked lists
+19. Sort a linked list (Bubble Sort)
+20. Remove duplicates from a sorted list
+21. Remove duplicates from an unsorted list
+22. Get N-th node from the start
+23. Get N-th node from the end
+24. Find intersection of two lists
+25. Delete a node with a given key
+26. Check if linked list has a cycle
+27. Find length of loop in a cycle
+28. Detect loop using Floyd’s algorithm
+29. Convert linked list to array
+30. Convert array to linked list
+31. Append last N nodes to the beginning
+32. Clone a linked list
+33. Segregate even and odd nodes
+34. Remove all nodes with a specific value
+35. Find maximum value node
+36. Find minimum value node
+37. Add two numbers represented by linked lists
+38. Interchange first and last nodes
+39. Split linked list into two halves
+40. Find second largest element
+41. Sum of all node values
+42. Delete alternate nodes
+43. Print list from end (recursive)
+44. Check if two linked lists intersect
+45. Insert in a sorted linked list
+46. Rotate linked list by K positions
+47. Move last node to front
+48. Find triplet with given sum
+49. Group nodes in even-odd position
+50. Convert binary number in linked list to integer
+
+---
+
+## *Intermediate Level (80+ Problems)*
+
+51. Reverse nodes in k-group
+52. Flatten a multilevel linked list
+53. Add 1 to a number represented by linked list
+54. Remove loop from linked list
+55. Clone linked list with random pointers
+56. Intersection node of two lists (pointer technique)
+57. Merge K sorted linked lists
+58. Detect and remove duplicates without extra space
+59. Find modular node (last node at position divisible by K)
+60. Find nearest smaller node
+61. Pairwise swap nodes
+62. Sort linked list using Merge Sort
+63. Add two numbers without reversing
+64. Remove N-th node from end (one pass)
+65. Reverse alternate K nodes
+66. Reorder list: L0 → Ln → L1 → Ln-1...
+67. Check for palindrome using stack
+68. Delete node without head pointer
+69. Partition list around a value x
+70. Convert sorted list to balanced BST
+71. Find intersection point using length difference
+72. Segregate 0s, 1s and 2s (similar to Dutch National Flag)
+73. Skip M nodes and delete N nodes
+74. Multiply two numbers represented by linked lists
+75. Flatten a linked list where each node has a child list
+76. Zig-zag conversion
+77. Sort 0s, 1s and 2s in a linked list
+78. Convert linked list to double linked list
+79. Convert binary tree to doubly linked list
+80. Alternate merge two lists
+81. Rotate list to right
+82. Check if circular linked list
+83. Check if doubly linked list is palindrome
+84. Insert node in circular linked list
+85. Circular linked list: traverse and delete
+86. Convert string to linked list of characters
+87. Remove consecutive duplicates
+88. Implement stack using linked list
+89. Implement queue using linked list
+90. Implement deque using doubly linked list
+91. Remove duplicates from unsorted list using HashSet
+92. Add two linked lists as Big Integers
+93. Rearrange in increasing-decreasing order
+94. Split circular list into two halves
+95. Convert linked list to number and vice versa
+96. Serialize and deserialize linked list
+97. Double linked list insertion and deletion
+98. Implement LRU Cache using doubly linked list
+99. Move zeros to the end
+100. Check if list can be divided into two equal halves
+101. Find duplicate nodes
+102. Delete every kth node
+103. Interleave two halves
+104. Convert Postfix Expression to Linked List
+105. Construct linked list from number string
+
+---
+
+## *Advanced Level (70+ Problems)*
+
+106. Reverse nodes in K-group (recursive)
+107. Detect and count disjoint cycles
+108. Multiply two large numbers using linked list
+109. Serialize a complex linked list structure
+110. Implement Least Frequently Used Cache
+111. XOR Linked List Implementation
+112. Memory efficient doubly linked list (using XOR)
+113. Flatten 2D matrix into a linked list
+114. Reverse a circular linked list
+115. Implement a skip list
+116. Delete nodes which have greater value on the right
+117. Find intersection using hashing
+118. Copy linked list using constant space
+119. Find merge point using tail connection
+120. Convert linked list to balanced AVL tree
+121. Find Kth element in spiral traversal of linked list matrix
+122. Rearrange list to even after odd
+123. Flatten linked list with child and next pointer
+124. Add numbers represented by circular lists
+125. Merge circular linked lists
+126. Check if a list is mirror of another
+127. Doubly linked list palindrome (optimized)
+128. Implement Snake game using doubly linked list
+129. Detect multiple loops
+130. Merge sort circular linked list
+131. Multiply two polynomial linked lists
+132. Evaluate polynomial using linked list
+133. Sparse matrix representation using linked list
+134. Implement multi-level LRU cache
+135. Create tree from in-order traversal in linked list
+136. Find maximum sum from contiguous sublist
+137. Link two lists by common data node
+138. Binary search in linked list
+139. Implement Trie using linked list
+140. Memory efficient LFU cache
+141. Real-time scheduling using linked list
+142. Flatten nested lists to one
+143. Reconstruct list from difference array
+144. Delete nodes on right of every node having greater value
+145. Find maximum value path in a grid linked list
+146. Dynamic playlist using doubly linked list
+147. Detect palindrome in streaming data using list
+148. Blockchain-like immutable linked list
+149. Find frequency of element in streamed list
+150. Detect alteration pattern in linked list
+151. Linked list as segment tree leaf node
+152. Implement undo-redo using doubly linked list
+153. Custom memory allocator using linked list

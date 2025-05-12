@@ -1,0 +1,90 @@
+## 🟢 Easy-Level Loop Problems
+
+1. Print your name 5 times.
+2. Display the first 10 natural numbers.
+3. Print the first 10 natural numbers in reverse order.
+4. Display the first N natural numbers (N is user input).
+5. Print the first N natural numbers in reverse order.
+6. Print the first 10 even natural numbers.
+7. Print the first 10 odd natural numbers.
+8. Display the multiplication table of a given number.
+9. Calculate the sum of the first N natural numbers.
+10. Calculate the product of the first N natural numbers.
+11. Calculate the sum of the first N even natural numbers.
+12. Calculate the sum of the first N odd natural numbers.
+13. Count the digits in a given number.
+14. Calculate the sum of the digits of a given number.
+15. Reverse a given number.
+16. Print all Armstrong numbers under 1000.
+** 12 - May - 2025-----------------------------------------------------------------------------
+
+17. Calculate the LCM of two numbers.
+18. Calculate the HCF of two numbers.
+19. Check whether a given number is prime.
+20. Print all prime numbers between two given numbers.
+21. Print all prime factors of a given number.
+22. Print the first N terms of the Fibonacci series.
+23. Convert a binary number to a decimal number.
+24. Print a pattern of stars (e.g., a right-angled triangle).
+25. Print a pattern of numbers (e.g., a pyramid).
+26. Display English alphabets from A to Z.
+27. Print a Floyd’s Triangle.
+28. Print a pyramid pattern of numbers.
+29. Print a mirrored right triangle star pattern.
+30. Print a hollow square or rectangle star pattern. ([Practice question based on loops.](https://www.easycodingzone.com/2021/08/practice-question-based-on-loops.html?utm_source=chatgpt.com), [For loop practice questions – Coding Wise](https://codingwise.in/for-loop-practice-questions/?utm_source=chatgpt.com), [Loop programming exercises and solutions in C++ – T4Tutorials.com](https://t4tutorials.com/loop-programming-exercises-and-solutions-in-c/?utm_source=chatgpt.com))
+
+---
+
+## 🟡 Intermediate-Level Loop Problems
+
+31. Find the factorial of a number.
+32. Find the sum of digits of a number.
+33. Check whether a number is a palindrome.
+34. Check whether a number is a perfect number.
+35. Check whether a number is a strong number.
+36. Find the HCF (GCD) of two numbers.
+37. Find the LCM of two numbers.
+38. Print all prime numbers between 1 and N.
+39. Find the sum of all prime numbers between 1 and N.
+40. Find all prime factors of a number.
+41. Check whether a number is an Armstrong number.
+42. Print all Armstrong numbers between 1 and N.
+43. Check whether a number is a perfect number.
+44. Print all Perfect numbers between 1 and N.
+45. Check whether a number is a strong number.
+46. Print first N terms of Fibonacci series.
+47. Convert a binary number to decimal.
+48. Convert a decimal number to binary.
+49. Convert a decimal number to octal.
+50. Convert a decimal number to hexadecimal. ([70+(solved) Important Practice Questions of Loops in Python - CS-IP-Learning-Hub](https://csiplearninghub.com/practice-questions-of-loops-in-python/?utm_source=chatgpt.com), [Loop programming exercises and solutions in C - Codeforwin](https://codeforwin.org/c-programming/for-do-while-loop-programming-exercises/?utm_source=chatgpt.com), [Loop programming exercises and solutions in C++ – T4Tutorials.com](https://t4tutorials.com/loop-programming-exercises-and-solutions-in-c/?utm_source=chatgpt.com))
+
+---
+
+## 🔴 Advanced-Level Loop Problems
+
+51. Generate the first N Fibonacci numbers using a loop.
+52. Find the factorial of a number using a loop.
+53. Check whether a number is prime using a loop.
+54. Print a pattern of numbers (e.g., a pyramid).
+55. Print a pattern of stars (e.g., a diamond).
+56. Print a pattern of numbers (e.g., a triangle).
+57. Print a pattern of stars (e.g., a square).
+58. Print a pattern of numbers (e.g., a rectangle).
+59. Print a pattern of stars (e.g., a circle).
+60. Print a pattern of numbers (e.g., a hexagon).
+61. Print a pattern of stars (e.g., a star).
+62. Print a pattern of numbers (e.g., a octagon).
+63. Print a pattern of stars (e.g., a parallelogram).
+64. Print a pattern of numbers (e.g., a rhombus).
+65. Print a pattern of stars (e.g., a trapezoid).
+66. Print a pattern of numbers (e.g., a triangle).
+67. Print a pattern of stars (e.g., a square).
+68. Print a pattern of numbers (e.g., a rectangle).
+69. Print a pattern of stars (e.g., a circle).
+70. Print a pattern of numbers (e.g., a hexagon).
+71. Print a pattern of stars (e.g., a star).
+72. Print a pattern of numbers (e.g., a octagon).
+73. Print a pattern of stars (e.g., a parallelogram).
+74. Print a pattern of numbers (e.g., a rhombus).
+75. Print a pattern of stars (e.g., a trapezoid).
+76. Print a pattern of numbers (e.g., a triangle).
