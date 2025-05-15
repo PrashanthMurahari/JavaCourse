@@ -101,5 +101,71 @@ public class ForLoopsTest {
         loops.armstrongNumbersUnder1000(10000);
     }
 
+    @Test
+    public void calculateLCM() {
+        ForLoops loops = new ForLoops();
+        loops.calculateLCM(2, 65);
+    }
+
+    @Test
+    public void calculateHCF() {
+        ForLoops loops = new ForLoops();
+        loops.calculateHCF(2, 65);
+    }
+
+    @Test
+    public void checkPrimeOrNot() {
+        ForLoops loops = new ForLoops();
+        loops.checkPrimeOrNot(99);
+    }
+
+    @Test
+    public void primeNumbersBetweenGivenNumbers() {
+        ForLoops loops = new ForLoops();
+        loops.primeNumbersBetweenGivenNumbers(2, 100);
+    }
+
+    @Test
+    public void primeFactors() {
+        ForLoops loops = new ForLoops();
+        loops.primeFactors(49);
+    }
+
+    @Test
+    public void fibonacciSeries() {
+        ForLoops loops = new ForLoops();
+        loops.fibonacciSeries(10);
+    }
+
+    @Test
+    public void fibonacciSeries2() {
+        ForLoops loops = new ForLoops();
+        loops.fibonacciSeries2(10);
+    }
+
+    @Test
+    public void binaryToDecimal() {
+        ForLoops loops = new ForLoops();
+        loops.binaryToDecimal("1101");
+    }
+
+    @Test
+    public void rightAngleTriangle() {
+        ForLoops loops = new ForLoops();
+        loops.rightAngleTriangle(5);
+    }
+
+    @Test
+    public void pyramid() {
+        ForLoops loops = new ForLoops();
+        loops.pyramid(5);
+    }
+
+    @Test
+    public void englishAlphabets() {
+        ForLoops loops = new ForLoops();
+        loops.englishAlphabets();
+    }
+
 
 }

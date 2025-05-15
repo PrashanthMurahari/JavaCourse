@@ -28,6 +28,8 @@
 24. Print a pattern of stars (e.g., a right-angled triangle).
 25. Print a pattern of numbers (e.g., a pyramid).
 26. Display English alphabets from A to Z.
+** 15 - May - 2025-----------------------------------------------------------------------------
+
 27. Print a Floyd’s Triangle.
 28. Print a pyramid pattern of numbers.
 29. Print a mirrored right triangle star pattern.

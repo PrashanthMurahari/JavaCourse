@@ -137,10 +137,135 @@ public class ForLoops {
                 number = number / 10;
             }
             if (sum == i) {
-                System.out.println("Armstrong number " + sum);
+                System.out.println(sum);
             }
         }
     }
 
+    public void calculateLCM(int a, int b) {
+        int lcm = (a * b) / gcd(a, b);
+        System.out.println(lcm);
+    }
+
+    public static int gcd(int a, int b) {
+        if (b == 0) {
+            return a;
+        }
+        return gcd(b, a % b);
+    }
+
+    public void calculateHCF(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        System.out.println(a);
+    }
+
+    public void checkPrimeOrNot(int number) {
+        if (number <= 1) {
+            System.out.println(number + " is not a prime number");
+        }
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                System.out.println(number + " is not a prime number");
+                break;
+            }
+        }
+        System.out.println(number + " is a prime number");
+    }
+
+    public void primeNumbersBetweenGivenNumbers(int startNum, int endNum) {
+        for (int number = startNum; number <= endNum; number++) {
+            if (number <= 1) {
+                System.out.println(number + " is not a prime number");
+            }
+            for (int i = 2; i <= Math.sqrt(number); i++) {
+                if (number % i == 0) {
+                    System.out.println(number + " is not a prime number");
+                    break;
+                }
+            }
+            System.out.println(number + " is a prime number");
+        }
+    }
+
+    public void primeFactors(int n) {
+        while (n % 2 == 0) {
+            System.out.print(2 + " ");
+            n /= 2;
+        }
+        for (int i = 3; i <= Math.sqrt(n); i += 2) {
+            while (n % i == 0) {
+                System.out.print(i + " ");
+                n /= i;
+            }
+        }
+        if (n > 2)
+            System.out.print(n);
+    }
+
+    public void fibonacciSeries(int n) {
+        int n1 = 0, n2 = 1;
+        for (int i = 0; i < n; i++) {
+            System.out.print(n1 + " ");
+            int n3 = n2 + n1;
+            n1 = n2;
+            n2 = n3;
+        }
+    }
+
+    public void fibonacciSeries2(int n) {
+        for (int i = 0; i < n; i++) {
+            int fibonacci = getFibonacci(i);
+            System.out.print(fibonacci);
+        }
+    }
+
+    public int getFibonacci(int n) {
+        if (n <= 1) {
+            return n;
+        }
+        return getFibonacci(n - 1) + getFibonacci(n - 2);
+    }
+
+    public void binaryToDecimal(String binary) {
+        int decimal = 0;
+        int power = 0;
+        for (int i = binary.length() - 1; i >= 0; i--) {
+            int digit = Integer.parseInt(String.valueOf(binary.charAt(i)));
+            decimal += digit * Math.pow(2, power);
+            power++;
+        }
+        System.out.println(decimal);
+    }
+
+    public void rightAngleTriangle(int number) {
+        for (int i = 0; i < number; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
+    public void pyramid(int number) {
+        for (int i = 1; i <= number; i++) {
+            for (int j = 1; j <= number - i; j++) {
+                System.out.print("  ");
+            }
+            for (int k = 1; k <= 2 * i - 1; k++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
+    public void englishAlphabets() {
+        for (char c = 'a'; c <= 'z'; c++) {
+            System.out.print(c + " ");
+        }
+    }
 
 }
